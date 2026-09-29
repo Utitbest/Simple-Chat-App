@@ -1,0 +1,74 @@
+# Dependencies
+
+node_modules/
+**/node_modules/
+
+# Logs
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+
+.env
+.env.*
+!.env.example
+
+# Next.js
+
+frontend/.next/
+.next/
+out/
+
+# Build folders
+
+dist/
+build/
+coverage/
+
+# Cache
+
+.cache/
+.parcel-cache/
+.turbo/
+
+# Vercel
+
+.vercel/
+
+# Uploads (if generated at runtime)
+
+uploads/
+temp/
+tmp/
+
+# Operating System files
+
+.DS_Store
+Thumbs.db
+
+# IDEs
+
+.vscode/
+.idea/
+
+# Runtime files
+
+*.pid
+*.seed
+*.pid.lock
+
+# Optional database files
+
+*.sqlite
+*.sqlite3
+
+
+# Local SSL certificates
+
+*.pem
+*.key
